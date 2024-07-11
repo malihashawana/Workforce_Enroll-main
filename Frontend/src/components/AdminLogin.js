@@ -11,7 +11,6 @@ const AdminLogin = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     
-    // Add login logic here (fetch request to the server for authentication)
     const response = await fetch('/api/admin/login', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },

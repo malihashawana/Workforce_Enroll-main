@@ -9,6 +9,7 @@ import Login_Company from './components/Login_Company';
 import Login_Jobseeker from './components/Login_Jobseeker';
 import Login_Admin from './components/Login_Admin';
 import { Toaster } from 'react-hot-toast';
+import AdminDashboard from './components/AdminDashboard';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/login_company" element={<Login_Company/>}/>
         <Route path="/login_jobseeker" element={<Login_Jobseeker/>}/>
         <Route path="/login_admin" element={<Login_Admin/>}/>
+        <Route path="/admin-dashboard" element={<AdminDashboard />} />
         
         
       </Routes>
